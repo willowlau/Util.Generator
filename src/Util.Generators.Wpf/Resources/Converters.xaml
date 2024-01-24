@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:converter="clr-namespace:Util.Generators.Converters">
+
+    <converter:BoolToCollapsedConverter x:Key="BoolToCollapsedConverter" />
+    <converter:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+    <converter:CountToBooleanConverter x:Key="CountToBooleanConverter" />
+    <converter:CountToCollapsedConverter x:Key="CountToCollapsedConverter" />
+    <converter:CountToVisibilityConverter x:Key="CountToVisibilityConverter" />
+    <converter:EnumToBooleanConverter x:Key="EnumToBooleanConverter" />
+    <converter:EnumToVisibilityConverter x:Key="EnumToVisibilityConverter" />
+    <converter:NullToVisibilityConverter x:Key="NullToVisibilityConverter" />
+    <converter:NullToCollapsedConverter x:Key="NullToCollapsedConverter" />
+    <converter:ObjectEqualsToBooleanConverter x:Key="ObjectEqualsToBooleanConverter" />
+    <converter:ObjectEqualsToVisibilityConverter x:Key="ObjectEqualsToVisibilityConverter" />
+    <converter:StringRepeatConverter x:Key="StringRepeatConverter" />
+    <converter:StringToBrushConverter x:Key="StringToBrushConverter" />
+    <converter:StringToColorConverter x:Key="StringToColorConverter" />
+    <converter:StringToResourceBrushConverter x:Key="StringToResourceBrushConverter" />
+    <converter:StringToResourceConverter x:Key="StringToResourceConverter" />
+    <converter:ZeroToCollapsedConverter x:Key="ZeroToCollapsedConverter" />
+
+</ResourceDictionary>

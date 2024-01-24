@@ -1,0 +1,88 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xml:space="preserve"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+
+    <s:String x:Key="LanguageName">English</s:String>
+    <s:String x:Key="LanguageCode">en-US</s:String>
+
+    <!--应用-->
+    <s:String x:Key="App.Name">Generators</s:String>
+    <s:String x:Key="App.Title">Generators</s:String>
+    <s:String x:Key="App.Copyright">Copyright &#169; Util</s:String>
+    <s:String x:Key="App.ExitTip">Are you sure to exit the system?</s:String>
+
+     <!--Settings-->
+    <s:String x:Key="Settings.Title">Settings</s:String>
+    <s:String x:Key="Settings.Ux">Interaction</s:String>
+    <s:String x:Key="Settings.Language">Language</s:String>
+    <s:String x:Key="Settings.Theme">Theme</s:String>
+    <s:String x:Key="Settings.ThemeLight">Light</s:String>
+    <s:String x:Key="Settings.ThemeDark">Dark</s:String>
+    <s:String x:Key="Settings.ThemeAuto">Use System</s:String>
+    <s:String x:Key="Settings.Sounds">Sounds</s:String>
+    <s:String x:Key="Settings.SoundsTip">The sound effect at the end of a feature, but this requires support for that feature</s:String>
+
+    <!--公共-->
+    <s:String x:Key="Common.Loading">Loading...</s:String>
+    <s:String x:Key="Common.Tip">Tip</s:String>
+    <s:String x:Key="Common.Back">Back</s:String>
+    <s:String x:Key="Common.Previous">Previous</s:String>
+    <s:String x:Key="Common.Next">Next</s:String>
+    <s:String x:Key="Common.Save">Save</s:String>
+    <s:String x:Key="Common.Manual">Manual</s:String>
+    <s:String x:Key="Common.Confirm">Confirm</s:String>
+    <s:String x:Key="Common.Ok">Ok</s:String>
+    <s:String x:Key="Common.Cancel">Cancel</s:String>
+    <s:String x:Key="Common.Finish">Finish</s:String>
+    <s:String x:Key="Common.Print">Print</s:String>
+    <s:String x:Key="Common.Search">Search</s:String>
+    <s:String x:Key="Common.Refresh">Refresh</s:String>
+    <s:String x:Key="Common.Add">Add</s:String>
+    <s:String x:Key="Common.Edit">Edit</s:String>
+    <s:String x:Key="Common.Delete">Delete</s:String>
+    <s:String x:Key="Common.Continue">Continue</s:String>
+    <s:String x:Key="Common.Start">Start</s:String>
+    <s:String x:Key="Common.Pause">Pause</s:String>
+    <s:String x:Key="Common.Stop">Stop</s:String>
+    <s:String x:Key="Common.Clean">Clean</s:String>
+    <s:String x:Key="Common.Init">Init</s:String>
+    <s:String x:Key="Common.FolderPath">FolderPath</s:String>
+    <s:String x:Key="Common.NoData">No Data</s:String>
+    <s:String x:Key="Common.Unknown">Unknown</s:String>
+    <s:String x:Key="Common.Preview">Preview</s:String>
+    <s:String x:Key="Common.Download">Download</s:String>
+    <s:String x:Key="Common.Year">Year</s:String>
+    <s:String x:Key="Common.Month">Month</s:String>
+    <s:String x:Key="Common.Day">Day</s:String>
+    <s:String x:Key="Common.Year.Short">Y</s:String>
+    <s:String x:Key="Common.Month.Short">M</s:String>
+    <s:String x:Key="Common.Day.Short">D</s:String>
+    <s:String x:Key="Common.Days">Days</s:String>
+    <s:String x:Key="Common.Hours">Hours</s:String>
+    <s:String x:Key="Common.Minutes">Minutes</s:String>
+    <s:String x:Key="Common.Seconds">Seconds</s:String>
+    <s:String x:Key="Common.Milliseconds">Milliseconds</s:String>
+    <s:String x:Key="Common.Total">Total records</s:String>
+    <s:String x:Key="Common.Pcs">Pcs</s:String>
+    <s:String x:Key="Common.Morning">Morning</s:String>
+    <s:String x:Key="Common.Afternoon">Afternoon</s:String>
+
+    <s:String x:Key="Common.Message.Success">The operation succeeded</s:String>
+    <s:String x:Key="Common.Message.Fail">The operation failed</s:String>
+ 
+    <!--菜单-->
+    <s:String x:Key="Menu.Main">Main menu</s:String>
+    <s:String x:Key="Menu.Main.File">File</s:String>
+    <s:String x:Key="Menu.Main.Exit">Exit</s:String>
+    <s:String x:Key="Menu.Main.Help">Help</s:String>
+    <s:String x:Key="Menu.Main.CheckUpdate">CheckUpdate</s:String>
+    <s:String x:Key="Menu.Main.About">About</s:String>
+    
+    <s:String x:Key="Main.Message.CheckUpdate.NewVersionTip">A new version of {0} is available. You are using version {1}. Do you want to update the app now?</s:String>
+    <s:String x:Key="Main.Message.CheckUpdate.HasNewVersion">Discover a new version</s:String>
+    <s:String x:Key="Main.Message.CheckUpdate.CheckVersion">Check for updates</s:String>
+    <s:String x:Key="Main.Message.CheckUpdate.NotNewVersion">You are currently using the latest version</s:String>
+    <s:String x:Key="Main.Message.CheckUpdate.CheckFail">Check for update failed</s:String>
+
+</ResourceDictionary>

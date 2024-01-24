@@ -1,0 +1,101 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xml:space="preserve"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+
+    <s:String x:Key="LanguageName">简体中文</s:String>
+    <s:String x:Key="LanguageCode">zh-CN</s:String>
+
+    <!--应用-->
+    <s:String x:Key="App.Name">代码生成器</s:String>
+    <s:String x:Key="App.Title">代码生成器</s:String>
+    <s:String x:Key="App.Copyright">Copyright &#169; Util</s:String>
+    <s:String x:Key="App.ExitTip">确定退出系统吗?</s:String>
+    
+     <!--Settings-->
+    <s:String x:Key="Settings.Title">设置</s:String>
+    <s:String x:Key="Settings.Ux">交互</s:String>
+    <s:String x:Key="Settings.Language">语言</s:String>
+    <s:String x:Key="Settings.Theme">主题</s:String>
+    <s:String x:Key="Settings.ThemeLight">亮色</s:String>
+    <s:String x:Key="Settings.ThemeDark">暗色</s:String>
+    <s:String x:Key="Settings.ThemeAuto">跟随系统</s:String>
+    <s:String x:Key="Settings.Sounds">音效</s:String>
+    <s:String x:Key="Settings.SoundsTip">例如功能结束时的音效，但这需要该功能支持</s:String>
+
+    <!--公共-->
+    <s:String x:Key="Common.Loading">处理中...</s:String>
+    <s:String x:Key="Common.Tip">提示</s:String>
+    <s:String x:Key="Common.Back">返回</s:String>
+    <s:String x:Key="Common.Previous">上一步</s:String>
+    <s:String x:Key="Common.Next">下一步</s:String>
+    <s:String x:Key="Common.Save">保存</s:String>
+    <s:String x:Key="Common.Manual">手动输入</s:String>
+    <s:String x:Key="Common.Confirm">确认</s:String>
+    <s:String x:Key="Common.Ok">确定</s:String>
+    <s:String x:Key="Common.Cancel">取消</s:String>
+    <s:String x:Key="Common.Finish">完成</s:String>
+    <s:String x:Key="Common.Print">打印</s:String>
+    <s:String x:Key="Common.Search">搜索</s:String>
+    <s:String x:Key="Common.Refresh">刷新</s:String>
+    <s:String x:Key="Common.Add">添加</s:String>
+    <s:String x:Key="Common.Edit">修改</s:String>
+    <s:String x:Key="Common.Delete">删除</s:String>
+    <s:String x:Key="Common.Continue">继续</s:String>
+    <s:String x:Key="Common.Start">开始</s:String>
+    <s:String x:Key="Common.Pause">暂停</s:String>
+    <s:String x:Key="Common.Stop">停止</s:String>
+    <s:String x:Key="Common.Clean">清空</s:String>
+    <s:String x:Key="Common.Init">初始化</s:String>
+    <s:String x:Key="Common.FolderPath">文件夹路径</s:String>
+    <s:String x:Key="Common.NoData">暂无数据</s:String>
+    <s:String x:Key="Common.Unknown">未知</s:String>
+    <s:String x:Key="Common.Preview">预览</s:String>
+    <s:String x:Key="Common.Download">下载</s:String>
+    <s:String x:Key="Common.Year">年</s:String>
+    <s:String x:Key="Common.Month">月</s:String>
+    <s:String x:Key="Common.Day">日</s:String>
+    <s:String x:Key="Common.Year.Short">年</s:String>
+    <s:String x:Key="Common.Month.Short">月</s:String>
+    <s:String x:Key="Common.Day.Short">日</s:String>
+    <s:String x:Key="Common.Days">天</s:String>
+    <s:String x:Key="Common.Hours">小时</s:String>
+    <s:String x:Key="Common.Minutes">分</s:String>
+    <s:String x:Key="Common.Seconds">秒</s:String>
+    <s:String x:Key="Common.Milliseconds">毫秒</s:String>
+    <s:String x:Key="Common.Total">共有记录</s:String>
+    <s:String x:Key="Common.Pcs">条</s:String>
+    <s:String x:Key="Common.Morning">上午</s:String>
+    <s:String x:Key="Common.Afternoon">下午</s:String>
+
+    <s:String x:Key="Common.Message.Success">操作成功</s:String>
+    <s:String x:Key="Common.Message.Fail">操作失败</s:String>
+    <s:String x:Key="Common.Message.PleaseSelectedItem">请选择要操作的项目</s:String>
+    
+    <!--菜单-->
+    <s:String x:Key="Menu.Main">主菜单</s:String>
+    <s:String x:Key="Menu.Main.File">文件</s:String>
+    <s:String x:Key="Menu.Main.Exit">退出</s:String>
+    <s:String x:Key="Menu.Main.Help">帮助</s:String>
+    <s:String x:Key="Menu.Main.CheckUpdate">检查更新</s:String>
+    <s:String x:Key="Menu.Main.About">关于</s:String>
+
+    <s:String x:Key="Main.Message.CheckUpdate.NewVersionTip">有新版本 {0} 可用. 您正在使用版本 {1}. 您想立即更新应用程序吗？</s:String>
+    <s:String x:Key="Main.Message.CheckUpdate.HasNewVersion">发现新版本</s:String>
+    <s:String x:Key="Main.Message.CheckUpdate.CheckVersion">检查更新</s:String>
+    <s:String x:Key="Main.Message.CheckUpdate.NotNewVersion">您当前使用的是最新版本</s:String>
+    <s:String x:Key="Main.Message.CheckUpdate.CheckFail">检查更新失败</s:String>
+    
+    <!--生成窗口-->
+    <s:String x:Key="MainGenerator.Toolbar.Build">生成</s:String>
+    <s:String x:Key="MainGenerator.Placeholder.FolderPath">选择生成代码目录</s:String>
+    <s:String x:Key="MainGenerator.Tooltip.OpenFolderPath">打开生成代码目录</s:String>
+    <s:String x:Key="MainGenerator.Tooltip.SelectFolderPath">选择生成代码目录</s:String>
+    
+    <s:String x:Key="MainGenerator.Column.Name">列名</s:String>
+    <s:String x:Key="MainGenerator.Column.Schema">架构名</s:String>
+    <s:String x:Key="MainGenerator.Column.Description">描述</s:String>
+    
+    <s:String x:Key="MainGenerator.Message.PleaseSelectedTable">请选择需要生成的表</s:String>
+
+</ResourceDictionary>

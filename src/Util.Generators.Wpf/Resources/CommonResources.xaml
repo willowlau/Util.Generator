@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Colors/Colors.xaml" />
+        <ResourceDictionary Source="Colors/ColorsDark.xaml" />
+        <ResourceDictionary Source="Geometries.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <!-- ReSharper disable once InconsistentNaming -->
+    <FontFamily x:Key="Util.Generators.Font.YaHei">微软雅黑,Microsoft YaHei UI Light</FontFamily>
+</ResourceDictionary>

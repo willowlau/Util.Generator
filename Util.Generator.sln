@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09-Util.Generators.Template
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10-Util.Generators.Templates.Data.EntityFrameworkCore.Oracle", "src\Util.Generators.Templates.Data.EntityFrameworkCore.Oracle\10-Util.Generators.Templates.Data.EntityFrameworkCore.Oracle.csproj", "{40EE46F8-087E-49CF-A815-E1E489B14E30}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13-Util.Generators.Wpf", "src\Util.Generators.Wpf\13-Util.Generators.Wpf.csproj", "{183FAD7C-F7B1-437A-A44E-3C1EE6111A2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +91,10 @@ Global
 		{40EE46F8-087E-49CF-A815-E1E489B14E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40EE46F8-087E-49CF-A815-E1E489B14E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40EE46F8-087E-49CF-A815-E1E489B14E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{183FAD7C-F7B1-437A-A44E-3C1EE6111A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183FAD7C-F7B1-437A-A44E-3C1EE6111A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183FAD7C-F7B1-437A-A44E-3C1EE6111A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183FAD7C-F7B1-437A-A44E-3C1EE6111A2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +112,7 @@ Global
 		{5DF5DD60-18B5-448C-805E-CDC135569336} = {BA2FA4CC-D872-425B-9FC5-82CBA38C0332}
 		{66E69A07-0C60-4260-873E-4D33E3F33FE1} = {BA2FA4CC-D872-425B-9FC5-82CBA38C0332}
 		{40EE46F8-087E-49CF-A815-E1E489B14E30} = {BA2FA4CC-D872-425B-9FC5-82CBA38C0332}
+		{183FAD7C-F7B1-437A-A44E-3C1EE6111A2C} = {BA2FA4CC-D872-425B-9FC5-82CBA38C0332}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA992230-B07D-4D53-97D1-E4A82286E719}
