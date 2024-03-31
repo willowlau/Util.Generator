@@ -5,6 +5,15 @@
     var service = new GenerateService( Model );
     Model.Output.FileNameNoExtension = "main";
     Model.Output.Extension = ".ts";
-    Model.Output.RelativeRootPath = $"src/{service.GetUiProjectName()}/ClientApp/src";
+    Model.Output.RelativeRootPath = $"{service.GetClientRootPath()}/src";
 }
-import('./bootstrap');
+@if (service.IsMicrofrontend()) {
+@:import('./bootstrap');
+    return;
+}
+import { bootstrapApplication } from '@@angular/platform-browser';
+import { AppComponent } from './app/app.component';
+import { appConfig } from './app/config/app.config';
+
+bootstrapApplication(AppComponent, appConfig)
+    .catch(err => console.error(err));
