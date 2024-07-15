@@ -59,13 +59,22 @@
 		<Content Update="Templates\src\Presentation\ClientApp\angular\angular.Part.cshtml">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
+		<Content Update="Templates\src\Presentation\ClientApp\src\app\config\alain.config.cshtml">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 		<Content Update="Templates\src\Presentation\ClientApp\src\app\config\app.config.cshtml">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="Templates\src\Presentation\ClientApp\src\app\config\shared.config.cshtml">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Update="Templates\src\Presentation\ClientApp\src\app\config\auth.config.cshtml">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Update="Templates\src\Presentation\ClientApp\src\app\config\url.config.cshtml">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="Templates\src\Presentation\ClientApp\src\app\config\zorro.config.cshtml">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Update="Templates\src\Presentation\ClientApp\src\app\core\startup\startup.service.cshtml">
@@ -108,9 +117,6 @@
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Update="Templates\src\Presentation\ClientApp\src\app\app.component.cshtml">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</Content>
-		<Content Update="Templates\src\Presentation\ClientApp\src\app\config\index.cshtml">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Update="Templates\src\Presentation\ClientApp\src\app\core\i18n\i18n.service.cshtml">
@@ -283,9 +289,6 @@
 		</Content>
 		<Content Update="Templates\src\Presentation\Program.cshtml">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</Content>
-		<Content Update="Templates\src\Presentation\start.cshtml">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Update="Templates\src\Presentation\Ui.Project.cshtml">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>

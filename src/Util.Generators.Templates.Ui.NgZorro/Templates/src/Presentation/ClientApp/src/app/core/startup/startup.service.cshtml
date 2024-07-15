@@ -63,7 +63,7 @@ export class StartupService {
     /**
      * 操作入口
      */
-    private util = new Util(inject(Injector));
+    private util = Util.create();
 
     /**
      * 启动初始化
@@ -108,7 +108,8 @@ export class StartupService {
                 }
                 return Promise.reject();
             })
-            .catch(() => {
+            .catch((exception) => {
+                console.error(exception);
                 this.authService.nextIsDoneLoading();
             });
     }
